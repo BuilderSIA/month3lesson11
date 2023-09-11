@@ -1,0 +1,260 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,
+}
+.Two{
+    display: flex;
+    width: 1300px;
+    height: 600px;
+    border: 1px solid;
+    margin: 0 auto;
+    background: #043873;
+    &__left{
+        width: 45%;
+        height: 100%;
+        &-container{
+            width: 500px;
+            height: 320px;
+            margin: 0 auto;
+            margin-top: 120px;
+            margin-left: 50px;
+            &-top{
+                width: 450px;
+                height: 150px;
+                color: #FFF;
+                font-family: Inter;
+                font-size: 72px;
+                &-img{
+                    width: 380px;
+                    height: 30px;
+                    padding-bottom: 50px;
+                }
+            }
+           
+            &-name{
+                width: 500px;
+                height: 50px;
+                color: white;
+            }
+            &-btn{
+                width: 140px;
+                height: 50px;
+                border-radius: 8px;
+                background: #4F9CF9;
+                border: none;
+                color: white;
+                margin-left: 50px;
+            }
+        }
+    }
+    &__right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 55%;
+        height: 100%;
+        &-img{
+            width: 600px;
+            height: 450px;
+            border: none;
+        }
+    }
+}
+
+.Two2{
+    display: flex;
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    &__left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 55%;
+        height: 100%;
+        &-img{
+            width: 600px;
+            height: 450px;
+            border: none; 
+        }
+    }
+    &__right{
+        width: 45%;
+        height: 100%;
+        &-container{
+            width: 500px;
+            height: 320px;
+            margin: 0 auto;
+            margin-top: 120px;
+            margin-left: 50px;
+            &-top{
+                width: 450px;
+                height: 150px;
+                color: black;
+                font-family: Inter;
+                font-size: 72px;
+                &-img{
+                    width: 380px;
+                    height: 30px;
+                    padding-bottom: 50px;
+                }
+            }
+           
+            &-name{
+                width: 500px;
+                height: 50px;
+                color: black;
+            }
+            &-btn{
+                width: 140px;
+                height: 50px;
+                border-radius: 8px;
+                background: #4F9CF9;
+                border: none;
+                color: white;
+                margin-left: 50px;
+        }
+    }
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .Two{
+        width: 768px;
+        height:1000px ;
+        &__left{
+            &-container{
+                width: 100%;
+                margin-left: 150px;
+                &-top{
+                    width: 550px;
+                }
+                &-btn{
+                    width: 100%;
+                    margin-left: 200px;
+                }
+            }
+        }
+        &__right{
+            &-img{
+                margin-top: 500px;
+                margin-right: 350px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .Two2{
+        width: 768px;
+        height: 1000px;
+        flex-direction: column-reverse;
+        &__left{
+            &-img{
+                
+                margin-left: 350px;
+            }
+        }
+        &__right{
+            width: 600px;
+            &-container{
+                width: 100%;
+                height: 300px;
+                margin-left: 100px;
+
+            
+                &-top{
+                    width: 850px;
+                    font-size: 50px;
+                }
+                &-btn{
+                    width: 300px;
+                    margin-left: 200px;
+                    
+                }
+            }
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px){
+    .Two{
+        width: 400px;
+        height: 900px;
+        &__left{
+            &-container{
+                width: 100%;
+                margin-left: 50px;
+                &-top{
+                    width: 200px;
+                    height: 150px;
+                }
+                &-name{
+                    width: 250px;
+                    margin-left: 50px;
+
+                }
+                &-btn{
+                    width: 100%;
+                    margin-left: 100px;
+                }
+            }
+        }
+        &__right{
+            &-img{
+                width: 300px;
+                height: 250px;
+                margin-left: 150px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px){
+    .Two2{
+        width: 100%;
+        &__left{
+            &-img{
+                width: 300px;
+                height: 250px;
+                margin-left: 150px;
+            }
+        }
+        &__right{
+            width: 400px;
+            &-container{
+                width: 100%;
+                height: 300px;
+                margin-left:50px;
+
+                &-top{
+                    width: 300px;
+                    font-size: 50px;
+                }
+                &-name{
+                    width: 250px;
+                    height: 200px;
+                    margin-left: 50px;
+                }
+                &-btn{
+                    width: 200px;
+                    margin-left: 100px;
+                    
+                }
+            }
+            
+        }
+
+       
+    }
+}
