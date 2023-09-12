@@ -309,7 +309,8 @@
 @media screen and (max-width: 400px){
     .sectionFour{
         &__top{
-            background: none;
+            background: url(/images/Element3.png) 20px 280px no-repeat;
+            background-size: 100%;
             background-color: #043873;
             &-cont{
                 width: 100%;
@@ -330,6 +331,14 @@
                     height: 50px;
                 }
             }
+        }
+        &__mid{
+            background: url(/images/Element2.png) 150px 210px no-repeat;
+            background-size: 50%;
+        }
+        &__btm{
+            background: url(/images/Element2.png) 150px 170px no-repeat;
+            background-size: 50%;
         }
     }
 }
