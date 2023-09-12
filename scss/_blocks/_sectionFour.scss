@@ -1,0 +1,344 @@
+.sectionFour{
+    &__top{
+        background: url(/images/BACKGROUND.png) 0px -200px no-repeat, url(/images/Element3.png) 855px 150px no-repeat;
+        background-size: auto ,10%;
+        background-color:  #043873;
+        &-cont{
+            width: 1400px;
+            height: 400px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .bigText{
+                width: 35%;
+                font-size: 35px;
+                margin-bottom: 5px;
+                color: #FFF;
+            }
+            p{
+                width: 60%;
+                text-align: center;
+                color: #FFF;
+            }
+            .tryTaskey{
+                width: 120px;
+                height: 40px;
+                border: 1px #4F9CF9;
+                color: #FFF;
+                margin-top: 30px;
+                background-color: #4F9CF9;
+                border-top-right-radius: 5px;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                a{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #FFF;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    &__mid{
+        background: url(/images/Element2.png) 220px 115px no-repeat;
+        background-size: 10%;
+        &-cont{
+            width: 1400px;
+            height: 450px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .mid-cont-left{
+                width: 45%;
+                height: 75%;
+                h2{
+                    font-size: 35px;
+                }
+                p{
+                    width: 80%;
+                }
+                .readMore{
+                    width: 120px;
+                    height: 40px;
+                    border: 1px #4F9CF9;
+                    color: #FFF;
+                    margin-top: 30px;
+                    background-color: #4F9CF9;
+                    border-top-right-radius: 5px;
+                    border-top-left-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    a{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #FFF;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .mid-cont-right{
+                width: 45%;
+                height: 75%;
+            }
+        }
+    }
+    &__btm{
+        width: 1400px;
+        height: 450px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(/images/Element2.png) 665px 170px no-repeat;
+        background-size: 12%;
+        &-cont{
+            width: 90%;
+            height: 50%;
+            text-align: center;
+            h2{
+                font-size: 35px;
+                margin-bottom: 150px;
+            }
+            .sponsorsLogos{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 150px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px){
+    .sectionFour{
+        &__top{
+            background: none, url(/images/Element3.png) 190px 150px no-repeat;
+            background-size: 15%;
+            background-color: #043873;
+            &-cont{
+                width: 100%;
+                align-items: start;
+                margin-left: 15px;
+                .bigText{
+                    width: 30%;
+                }
+                p{
+                    width: 53%;
+                }
+                .tryTaskey{
+                    margin-top: 30px;
+                }
+            }
+        }
+        &__mid{
+            background-size: 20%;
+            background-position-x: 120px;
+            &-cont{
+                width: 100%;
+                .mid-cont-left{
+                    width: 50%;
+                }
+                .mid-cont-right{
+                    .aboutService{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        &__btm{
+            background-size: 15%;
+            background-position-x: 470px;
+            width: 100%;
+            .sponsorsLogos{
+                width: 100%;
+                gap: 50px;
+                
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .sectionFour{
+        &__top{
+            background: url(/images/BACKGROUND.png) 0 -200px no-repeat, url(/images/Element3.png)0 150px no-repeat #043873;
+            background-size: auto , 25%;
+            &-cont{
+                width: 100%;
+                .bigText{
+                    width: 50%;
+                }
+                p{
+                    width: 65%;
+                    text-align: start;
+                }
+                .tryTaskey{
+                    margin-top: 30px;
+                }
+            }
+        }
+        &__mid{
+            background-position-y: 315px;
+            background-position-x: 350px;
+            &-cont{
+                flex-direction: column-reverse;
+                margin-top: 100px;
+                .mid-cont-left{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    p{
+                        width: 75%;
+                        text-align: center;
+                    }
+                }
+                .mid-cont-right{
+                    width: 80%;
+                }
+            }
+        }
+        &__btm{
+            background-position-x: 350px;
+            background-position-y: 175px;
+            &-cont{
+                .sponsorsLogos{
+                    flex-direction: column;
+                    gap: 150px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px){
+    .sectionFour{
+        &__top{
+            background: url(/images/Element3.png) 20px 280px no-repeat;
+            background-size: 100%;
+            background-color: #043873;
+            &-cont{
+                width: 100%;
+                height: 800px;
+                margin-left: 10px;
+                .bigText{
+                    width: 75%;
+                    font-size: 40px;
+                }
+                p{
+                    width: 93%;
+                    font-size: x-large;
+                    text-align: start;
+                }
+                .tryTaskey{
+                    margin-top: 50px;
+                    width: 270px;
+                    height: 50px;
+                }
+            }
+        }
+        &__mid{
+            background: url(/images/Element2.png) 150px 210px no-repeat;
+            background-size: 50%;
+        }
+        &__btm{
+            background: url(/images/Element2.png) 150px 170px no-repeat;
+            background-size: 50%;
+        }
+    }
+}
