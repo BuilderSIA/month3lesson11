@@ -1,5 +1,6 @@
 .sectionFour__top {
-  background: url(/images/BACKGROUND.png) 0px -200px no-repeat;
+  background: url(/images/BACKGROUND.png) 0px -200px no-repeat, url(/images/Element3.png) 855px 150px no-repeat;
+  background-size: auto, 10%;
   background-color: #043873;
 }
 .sectionFour__top-cont {
@@ -40,6 +41,10 @@
   align-items: center;
   color: #FFF;
   text-decoration: none;
+}
+.sectionFour__mid {
+  background: url(/images/Element2.png) 220px 115px no-repeat;
+  background-size: 10%;
 }
 .sectionFour__mid-cont {
   width: 1400px;
@@ -89,6 +94,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url(/images/Element2.png) 665px 170px no-repeat;
+  background-size: 12%;
 }
 .sectionFour__btm-cont {
   width: 90%;
@@ -108,7 +115,8 @@
 
 @media screen and (max-width: 1024px) {
   .sectionFour__top {
-    background: none;
+    background: none, url(/images/Element3.png) 190px 150px no-repeat;
+    background-size: 15%;
     background-color: #043873;
   }
   .sectionFour__top-cont {
@@ -125,6 +133,10 @@
   .sectionFour__top-cont .tryTaskey {
     margin-top: 30px;
   }
+  .sectionFour__mid {
+    background-size: 20%;
+    background-position-x: 120px;
+  }
   .sectionFour__mid-cont {
     width: 100%;
   }
@@ -135,6 +147,8 @@
     width: 100%;
   }
   .sectionFour__btm {
+    background-size: 15%;
+    background-position-x: 470px;
     width: 100%;
   }
   .sectionFour__btm .sponsorsLogos {
@@ -143,6 +157,10 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .sectionFour__top {
+    background: url(/images/BACKGROUND.png) 0 -200px no-repeat, url(/images/Element3.png) 0 150px no-repeat #043873;
+    background-size: auto, 25%;
+  }
   .sectionFour__top-cont {
     width: 100%;
   }
@@ -155,6 +173,10 @@
   }
   .sectionFour__top-cont .tryTaskey {
     margin-top: 30px;
+  }
+  .sectionFour__mid {
+    background-position-y: 315px;
+    background-position-x: 350px;
   }
   .sectionFour__mid-cont {
     flex-direction: column-reverse;
@@ -173,6 +195,10 @@
   }
   .sectionFour__mid-cont .mid-cont-right {
     width: 80%;
+  }
+  .sectionFour__btm {
+    background-position-x: 350px;
+    background-position-y: 175px;
   }
   .sectionFour__btm-cont .sponsorsLogos {
     flex-direction: column;
