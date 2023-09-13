@@ -13,7 +13,7 @@
 }
 
 .container {
-  width: 1600px;
+  width: 1400px;
   height: 750px;
   margin: 0 auto;
   margin-top: 2px;
@@ -314,6 +314,7 @@
   background-image: url(/images/Group.png);
   background-repeat: no-repeat;
   background-size: 200px;
+  background-position: 0px 0px;
 }
 .sectionOne .continer_1 {
   width: 95%;
@@ -1100,6 +1101,7 @@
 }
 .price__wrapper {
   padding: 140px 12px;
+  margin-top: 1000px;
 }
 .price__wrapper-img {
   position: absolute;
@@ -1976,6 +1978,9 @@
     gap: 15px;
   }
 }
+.sectionFour {
+  margin-top: 500px;
+}
 .sectionFour__top {
   background: url(/images/BACKGROUND.png) 0px -200px no-repeat, url(/images/Element3.png) 855px 150px no-repeat;
   background-size: auto, 10%;
@@ -1991,7 +1996,7 @@
   align-items: center;
 }
 .sectionFour__top-cont .bigText {
-  width: 35%;
+  width: 40%;
   font-size: 35px;
   margin-bottom: 5px;
   color: #FFF;
