@@ -3,6 +3,7 @@
         background: url(/images/BACKGROUND.png) 0px -200px no-repeat, url(/images/Element3.png) 855px 150px no-repeat;
         background-size: auto ,10%;
         background-color:  #043873;
+        margin-top: 50px;
         &-cont{
             width: 1400px;
             height: 400px;
@@ -12,7 +13,7 @@
             justify-content: center;
             align-items: center;
             .bigText{
-                width: 35%;
+                width: 40%;
                 font-size: 35px;
                 margin-bottom: 5px;
                 color: #FFF;
@@ -58,6 +59,7 @@
                 height: 75%;
                 h2{
                     font-size: 35px;
+                    margin-top: 20px;
                 }
                 p{
                     width: 80%;
@@ -104,6 +106,7 @@
             h2{
                 font-size: 35px;
                 margin-bottom: 150px;
+                margin-top: 20px;
             }
             .sponsorsLogos{
                 display: flex;

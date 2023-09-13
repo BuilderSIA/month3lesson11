@@ -17,6 +17,7 @@
   height: 100%;
   background-image: url(../../images/Element.png);
   background-repeat: no-repeat;
+  background-position: 50px 350px;
   border: 1px solid;
 }
 .container__cantainer__header {
@@ -881,6 +882,9 @@
   margin: 0 auto;
   background: #043873;
 }
+.Two p {
+  margin-top: 50px;
+}
 .Two__left {
   width: 45%;
   height: 100%;
@@ -936,6 +940,9 @@
   width: 1300px;
   height: 600px;
   margin: 0 auto;
+}
+.Two2 p {
+  margin-top: 100px;
 }
 .Two2__left {
   display: flex;
@@ -1094,6 +1101,9 @@
 }
 .price__wrapper {
   padding: 140px 12px;
+}
+.price__wrapper p {
+  margin-top: 50px;
 }
 .price__wrapper-img {
   position: absolute;
@@ -1974,6 +1984,7 @@
   background: url(/images/BACKGROUND.png) 0px -200px no-repeat, url(/images/Element3.png) 855px 150px no-repeat;
   background-size: auto, 10%;
   background-color: #043873;
+  margin-top: 50px;
 }
 .sectionFour__top-cont {
   width: 1400px;
@@ -1985,7 +1996,7 @@
   align-items: center;
 }
 .sectionFour__top-cont .bigText {
-  width: 35%;
+  width: 40%;
   font-size: 35px;
   margin-bottom: 5px;
   color: #FFF;
@@ -2032,6 +2043,7 @@
 }
 .sectionFour__mid-cont .mid-cont-left h2 {
   font-size: 35px;
+  margin-top: 20px;
 }
 .sectionFour__mid-cont .mid-cont-left p {
   width: 80%;
@@ -2077,6 +2089,7 @@
 .sectionFour__btm-cont h2 {
   font-size: 35px;
   margin-bottom: 150px;
+  margin-top: 20px;
 }
 .sectionFour__btm-cont .sponsorsLogos {
   display: flex;
