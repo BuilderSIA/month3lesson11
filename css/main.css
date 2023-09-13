@@ -9,7 +9,7 @@
 .sectionOne {
   width: 1400px;
   margin: 0 auto;
-  background-image: url(/images/Group.png);
+  background-image: url(/images/Group1.png);
   background-repeat: no-repeat;
   background-size: 200px;
 }
@@ -76,7 +76,7 @@
   .sectionOne {
     width: 1024px;
     margin: 0 auto;
-    background-image: url(/images/Group.png);
+    background-image: url(/images/Group1.png);
     background-repeat: no-repeat;
     background-size: 200px;
   }
@@ -146,7 +146,7 @@
   .sectionOne {
     width: 768px;
     margin: 0 auto;
-    background-image: url(/images/Group.png);
+    background-image: url(/images/Group1.png);
     background-repeat: no-repeat;
     background-size: 200px;
   }
