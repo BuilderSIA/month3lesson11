@@ -16,6 +16,7 @@
   width: 100%;
   height: 100%;
   background-image: url(../../images/Element.png);
+  background-repeat: no-repeat;
   border: 1px solid;
 }
 .container__cantainer__header {
